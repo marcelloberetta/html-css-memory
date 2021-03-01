@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nerko One', cursive;
+  
+}
+
+body{
+  
+}
+
+.title{
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 1px 1px 4px #000000;
+  
+}
+
+.container{
+  width: 1353px;
+  height: 846px;
+  background-color: #add8e6;
+  
+}
+
+header{
+  margin-bottom: 20px;
+}
+
+
+.row1 > div, .row2 > div, .row3 > div {
+  height: 200px;
+  width: 175px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  
+
+}
+
+
+footer{
+  color:black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.row1{
+  position: relative;
+}
+
+.card4row1{
+  position: absolute;
+  right:150px;
+ 
+}
+
+.card3row1{
+  position:absolute;
+  right: 350px;
+  
+}
+
+.card2row1{
+  position: absolute;
+  right: 550px;
+  
+}
+
