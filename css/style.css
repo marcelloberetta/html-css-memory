@@ -37,7 +37,13 @@ header{
   background-color: #ffffff;
   border-radius: 10px;
   display: inline-block;
-  
+  background-image: url("../img/pattern.png");
+  background-size: cover;
+  background-size: 95%;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px grey;
+
 
 }
 
@@ -50,24 +56,69 @@ footer{
 }
 
 .row1{
-  position: relative;
+  margin:auto;
+
 }
 
-.card4row1{
-  position: absolute;
-  right:150px;
+
+.row1{
+  text-align: center;
+  margin: auto;
+  
+}
+
+.row1, .row2, .row3{
+  text-align: center;
+  margin: auto;
+}
+
+
+.row2, .row3{
+  margin-top: 20px;
+}
+
+.baloon:hover{
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat; 
+}
+
+.submarine:hover{
+  background-image: url("../img/noun_Submarine_3134738.png");
  
 }
 
-.card3row1{
-  position:absolute;
-  right: 350px;
+
+.tram:hover{
+  background-image: url("../img/noun_Tram_3134750.png");
+
+}
+
+.tram:hover, .bicicyle:hover,.submarine:hover, .tractor:hover, .cruiseship:hover{
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cruiseship:hover{
+  background-image: url("../img/noun_Cruise_Ship_3134824.png");
   
 }
 
-.card2row1{
-  position: absolute;
-  right: 550px;
+.tractor:hover{
+  background-image: url("../img/noun_Tractor_3134797.png")
+}
   
+.submarine:hover{
+  background-image: url("../img/noun_Submarine_3134738.png");
 }
 
+#tram{
+  background-image: url("../img/noun_Tram_3134750.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bicicyle:hover{
+  background-image: url("../img/noun_Bicycle_3134821.png");
+ 
